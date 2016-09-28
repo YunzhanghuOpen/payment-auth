@@ -27,16 +27,18 @@ https://github.com/YunzhanghuOpen/payment-auth/archive/master.zip
 模拟支付宝订单
 	
 ```shell
-php index.php < alipay.json
-输出
+php index.php alipay
+
+OgAp%2BiuiLVmteIH3h5KyLRa0NhWn%2BALe%2FQrUTCnzHssf5Xi%2FWj0A01UiwtEwk3R7%2Bab6tP6vUaWYDIgdh7tmItu7iz8VoMsk9AuBmI9D22ZtcfHEfmwlqrWmsXUt3PWyGREjsBgQeu0o94iVs5KeBqqoe3otvFUJ31EVD%2Boji6w%3D%
 ```
 	
 
 模拟微信订单
 	
 ```shell
-php index.php < wechat.json
-输出
+php index.php wechat
+
+OgAp%2BiuiLVmteIH3h5KyLRa0NhWn%2BALe%2FQrUTCnzHssf5Xi%2FWj0A01UiwtEwk3R7%2Bab6tP6vUaWYDIgdh7tmItu7iz8VoMsk9AuBmI9D22ZtcfHEfmwlqrWmsXUt3PWyGREjsBgQeu0o94iVs5KeBqqoe3otvFUJ31EVD%2Boji6w%3D%
 ```
 	
 
