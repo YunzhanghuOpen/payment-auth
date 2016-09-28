@@ -19,7 +19,7 @@
 
 ### 集成
 
-Demo 下载：
+Demo 下载
 
 1. [PHP](php)
 1. [Java](java)
