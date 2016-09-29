@@ -17,6 +17,14 @@
 
 `红包SDK(Server)` 用于对支付订单签名。
 
+### 接口定义
+
+接口: http(https)://`app.host.com`/rpserversdk/payment/auth
+
+方法: POST
+
+Content-Type: application/json
+
 ### 集成
 
 Demo 下载
