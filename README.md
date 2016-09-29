@@ -58,10 +58,10 @@ curl -X POST -H "Content-Type: application/json" -d '{
 
 Demo 下载
 
-1. [PHP](PHP)
-1. [Java](Java)
+1. [PHP](php)
+1. [Java](java)
 1. [Node.js](nodejs)
-1. [Go](Go)
+1. [Go](go)
 
 
 
