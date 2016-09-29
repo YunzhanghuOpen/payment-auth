@@ -19,11 +19,33 @@
 
 ### 接口定义
 
-接口: http(https)://`app.host.com`/rpserversdk/payment/auth
+- 接口: http(https)://`app.host.com`/rpserversdk/payment/auth
+- 方法: POST
+- Content-Type: application/json
 
-方法: POST
+举例：
 
-Content-Type: application/json
+云账户发出的请求
+
+```js
+curl -X POST -H "Content-Type: application/json" -d '{
+"service":"mobile.securitypay.pay",
+"partner":"",
+"_input_charset":"utf-8",
+"sign_type":"RSA",
+"sign":"",
+"channel":"ALIPAY",
+"notify_url":"http:\/\/***REMOVED***",
+"out_trade_no":"3242398127981",
+"subject":"\u5546\u54c1\u4ed8\u6b3e",
+"payment_type":"1",
+"seller_id":"",
+"total_fee":100,
+"body":"\u5546\u54c1\u4ed8\u6b3e\u8be6\u60c5",
+"it_b_pay":"30m"
+}' "https://app.host.com/rpserversdk/payment/auth"
+```
+
 
 ### 集成
 
