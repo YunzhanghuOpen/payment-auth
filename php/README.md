@@ -29,7 +29,7 @@ https://github.com/YunzhanghuOpen/payment-auth/archive/master.zip
 ```shell
 php index.php alipay
 
-OgAp%2BiuiLVmteIH3h5KyLRa0NhWn%2BALe%2FQrUTCnzHssf5Xi%2FWj0A01UiwtEwk3R7%2Bab6tP6vUaWYDIgdh7tmItu7iz8VoMsk9AuBmI9D22ZtcfHEfmwlqrWmsXUt3PWyGREjsBgQeu0o94iVs5KeBqqoe3otvFUJ31EVD%2Boji6w%3D%
+_input_charset=utf-8&body=商品付款详情&channel=ALIPAY&it_b_pay=30m&notify_url=http://***REMOVED***&out_trade_no=3242398127981&partner=2081222667389722&payment_type=1&seller_id=2081222667389722&service=mobile.securitypay.pay&subject=商品付款&total_fee=100&sign=OgAp%2BiuiLVmteIH3h5KyLRa0NhWn%2BALe%2FQrUTCnzHssf5Xi%2FWj0A01UiwtEwk3R7%2Bab6tP6vUaWYDIgdh7tmItu7iz8VoMsk9AuBmI9D22ZtcfHEfmwlqrWmsXUt3PWyGREjsBgQeu0o94iVs5KeBqqoe3otvFUJ31EVD%2Boji6w%3D%
 ```
 	
 

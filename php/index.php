@@ -29,12 +29,12 @@ $channel = $inputParamsArr['channel'];
 switch($channel) {
     case CHANNEL_ALIPAY:
         $service = new AlipayAuth();
-        $sign = $service->genSign($inputParamsArr);
+        $orderString = $service->genSign($inputParamsArr);
         break;
     
     case CHANNEL_WECHAT:
         $service = new WechatAuth();
-        $sign = $service->genSign($inputParamsArr);
+        $orderString = $service->genSign($inputParamsArr);
         break;
     default:
         $sign = 'error';
@@ -43,7 +43,7 @@ switch($channel) {
 
 // 3) 输出已签名的订单
 
-echo $sign;
+echo $orderString;
 
 
 
