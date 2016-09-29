@@ -18,7 +18,7 @@
 
 ## 红包SDK(Server) 
 
-`红包SDK(Server)` 用于对支付订单签名，由一个接口支持支付宝和微信支付等多种支付方式的订单生成签名。
+`红包SDK(Server)` 用于对支付订单签名，由一个接口支持支付宝和微信支付等多种支付方式的订单生成签名，以便认证服务。
 
 ### 接口定义
 
@@ -26,7 +26,7 @@
 - 方法: POST
 - 输入：header为：Content-Type: application/json
    输入参数是一个JSON对象，有属性 channel 和 orderInfo。channel告知支付方式，其取值包括ALIPAY，WECHAT等。输入JSON对象的orderInfo的具体构成，则由对应的支付方式决定，代表发起支付时的标准的请求对象。
-- 输出：签名值sign
+- 输出：签名值sign，string类型，其生成方法参考对应支付方式的标准方法，针对上述orderInfo对象生成签名。
 
 举例：
 
@@ -60,7 +60,7 @@ Demo 下载
 
 1. [PHP](PHP)
 1. [Java](Java)
-1. [Node.js](Node.js)
+1. [Node.js](nodejs)
 1. [Go](Go)
 
 
