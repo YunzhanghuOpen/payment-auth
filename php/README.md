@@ -27,7 +27,7 @@ https://github.com/YunzhanghuOpen/payment-auth/archive/master.zip
 模拟支付宝订单
 	
 ```shell
-# 模拟请求
+# 请求
 php index.php alipay
 
 # 输出
@@ -38,7 +38,7 @@ _input_charset=utf-8&body=商品付款详情&channel=ALIPAY&it_b_pay=30m&notify_
 模拟微信订单
 	
 ```shell
-# 模拟请求
+# 请求
 php index.php wechat
 
 # 输出
