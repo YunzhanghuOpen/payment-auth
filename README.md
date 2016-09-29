@@ -27,7 +27,7 @@
 
 云账户发出的请求
 
-```js
+```shell
 curl -X POST -H "Content-Type: application/json" -d '{
 "service":"mobile.securitypay.pay",
 "partner":"",
