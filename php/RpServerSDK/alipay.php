@@ -42,9 +42,7 @@ EOT;
         $params = $this->_sortParams($params);
         $linkString = $this->_createLinkString($params);
         $sign = $this->_signParams($linkString, $this->private_key);
-        $params['sign'] = $sign;
-        $orderString = $this->_createLinkString($params);
-        return $orderString;
+        return $sign;
     }
 
     /**
