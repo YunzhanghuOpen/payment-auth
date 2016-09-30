@@ -57,10 +57,12 @@ curl -X POST -H "Content-Type: application/json" -d '{
 
 Demo 下载
 
-1. [PHP](php)
-1. [Java](java)
-1. [Node.js](nodejs)
-1. [Go](go)
+|版本|说明|
+|---|----|
+|[PHP](php)|有效，目前仅支持支付宝，微信开发中|
+|[Java](java) |敬请期待|
+|[Node.js](nodejs) |敬请期待|
+|[Go](go) |敬请期待|
 
 ### 对接步骤
 
