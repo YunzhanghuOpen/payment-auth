@@ -53,7 +53,6 @@ curl -X POST -H "Content-Type: application/json" -d '{
 }' "https://app.host.com/rpserversdk/payment/auth"
 ```
 
-
 ### 集成
 
 Demo 下载
@@ -62,6 +61,11 @@ Demo 下载
 1. [Java](java)
 1. [Node.js](nodejs)
 1. [Go](go)
+
+### 对接步骤
+
+1. 请商户方把自己的支付宝商户号发给云账户
+1. 商户方根据文档开发好接口后，把接口地址发给云账户
 
 
 
