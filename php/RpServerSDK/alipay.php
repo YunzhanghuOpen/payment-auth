@@ -116,6 +116,7 @@ EOT;
         $res = openssl_get_privatekey($priKey);
         openssl_sign($data, $sign, $res);
         openssl_free_key($res);
+        // 根据支付宝要求，此处一定 urlencode，否则可能会出现“交易订单处理失败，请稍后重试”报错
         $sign = urlencode(base64_encode($sign));
 //        echo "签名结果:{$sign}\n";
         return $sign;
