@@ -25,8 +25,8 @@
 - 接口: http(https)://`app.host.com`/rpserversdk/payment/auth
 - 方法: POST
 - 输入：header为：Content-Type: application/json
-   输入参数是一个JSON对象，有属性 channel 和 orderInfo。channel告知支付方式，其取值包括ALIPAY，WECHAT等。输入JSON对象的orderInfo的具体构成，则由对应的支付方式决定，代表发起支付时的标准的请求对象。
-- 输出：签名值sign，string类型，其生成方法参考对应支付方式的标准方法，针对上述orderInfo对象生成签名。
+   输入参数是一个JSON对象，有属性 channel 和 orderInfo。channel 告知支付方式，其取值包括ALIPAY，WECHAT等。输入JSON对象的 orderInfo 的具体构成，则由对应的支付方式决定，代表发起支付时的标准的请求对象。
+- 输出：签名值 sign，string 类型，其生成方法参考对应支付方式的标准方法，针对上述 orderInfo 对象生成签名。
 
 举例：
 
@@ -68,6 +68,10 @@ Demo 下载
 
 1. 请商户方把自己的支付宝（微信）商户号发给云账户
 1. 商户方根据文档开发好接口后，把接口地址发给云账户
+
+### 常见问题
+
+1. 支付宝的签名结果要进行 URL encoding，否则会产生“交易订单处理失败，请稍后重试”的报错。
 
 
 
