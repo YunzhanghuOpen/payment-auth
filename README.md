@@ -41,7 +41,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
   "_input_charset":"utf-8",
   "sign_type":"RSA",
   "sign":"",
-  "notify_url":"http:\/\/***REMOVED***",
+  "notify_url":"https:\/\/***REMOVED***",
   "out_trade_no":"3242398127981",
   "subject":"\u5546\u54c1\u4ed8\u6b3e",
   "payment_type":"1",
